@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mpl-utils"
+version = "1.0.0"
+description = "A bunch of opinionated matplotlib plotting utilities tailored for my own needs"
+authors = ["Rami Sabbagh <rami.sab07@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+include = ["mpl_utils/styles/*.mplstyle"]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = ["tests"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

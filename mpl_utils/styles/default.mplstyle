@@ -1,0 +1,11 @@
+# Set the grid linestyle to dotted
+grid.linestyle: ":"
+
+# Enable the grid by default
+axes.grid: True
+
+# Set the default figure layout to constrained
+figure.constrained_layout.use: True
+
+# Set the default figure size to (8, 6)
+figure.figsize: 8, 6
