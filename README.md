@@ -5,7 +5,9 @@ Those are a bunch of opinionated `matplotlib` plotting utilities tailored for my
 
 ## Installation
 
-TODO: publish on GitHub Packages.
+```sh
+pip install git+https://github.com/Rami-Sabbagh/mpl-utils.git@1.0.0
+```
 
 ## Styles Usage
 
