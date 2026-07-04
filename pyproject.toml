@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mpl-utils"
-version = "1.0.0"
+version = "1.0.1"
 description = "A bunch of opinionated matplotlib plotting utilities tailored for my own needs"
 authors = ["Rami Sabbagh <rami.sab07@gmail.com>"]
 license = "MIT"
@@ -12,7 +12,7 @@ addopts = "-v"
 testpaths = ["tests"]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12, <3.15"
 matplotlib = "^3.9.2"
 
 
