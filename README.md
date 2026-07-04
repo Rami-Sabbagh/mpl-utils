@@ -6,7 +6,7 @@ Those are a bunch of opinionated `matplotlib` plotting utilities tailored for my
 ## Installation
 
 ```sh
-pip install git+https://github.com/Rami-Sabbagh/mpl-utils.git@1.0.0
+pip install git+https://github.com/Rami-Sabbagh/mpl-utils.git@1.0.1
 ```
 
 ## Styles Usage
